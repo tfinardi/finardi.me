@@ -67,8 +67,8 @@ enableEmoji = true
         mobileMode = "auto"  
         [params.header.title]
             logo = "/images/logo.png"
-            name = "Thiago Finardi"
-            pre = "<i class='fas fa-terminal fa-fw'></i>"
+            name = ""
+            pre = ""
             post = ""
             typeit = true
 
