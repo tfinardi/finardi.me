@@ -1,5 +1,5 @@
 ---
-title: "Linux atraves do Windows com WSL2, Docker e ZSH)"
+title: "Linux atraves do Windows com WSL2, Docker e ZSH"
 subtitle: "Utilizando o Docker via WSL2 no Windows como ambiente de desenvolvimento."
 description: "Ative o Windows Subsystem for Linux (WSL) 2 com suporte ao Docker e tenha o seu ambiente de desenvolvimento de uma maneira super rápida."
 keywords: ["WSL", "Docker", "ZSH", "Windows"]
