@@ -145,7 +145,7 @@ sudo apt install docker-ce docker-compose -y
 Geralmente o serviço do Docker inicia automáticamente após a instalação. Comigo não foi assim, caso aconteça o mesmo com você, basta rodar o comando **``sudo service docker start``**
 {{< /admonition >}}
 
-Aproveite e adicione seu usuário ao grupo docker para possibilitar subir os containeres sem a necessidade do sudo.
+Aproveite e adicione seu usuário ao grupo docker para possibilitar subir os containers sem a necessidade do sudo.
 
 ```bash
  sudo usermod -a -G docker $USER
