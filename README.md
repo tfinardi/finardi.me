@@ -3,7 +3,7 @@
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.74.3-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
 [![License](https://img.shields.io/github/license/tfinardi/finardi.me?style=flat-square)](https://github.com/tfinardi/finardi.me/blob/master/LICENSE)
 
-[![Site demo](https://repository-images.githubusercontent.com/295486233/92389180-f6d1-11ea-8c2f-aa31fdc8ebf0)](#)
+[![Blog demo](https://repository-images.githubusercontent.com/310735966/a048ff80-2287-11eb-917b-cf90d0c14165)](#)
 
 ### URL do Blog [finardi.me](https://finardi.me/)
 
