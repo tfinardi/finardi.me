@@ -10,7 +10,7 @@ authorName: Thiago Finardi
 authorEmail: tfinardi@gmail.com
 authorLink: https://finardi.me/about
 
-draft: true
+draft: false
 
 keywords: ["Logs","Vector","Docker","AWS","Linux"]
 categories: ["Sysadmin","DevOps","SRE"]
