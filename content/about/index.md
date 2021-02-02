@@ -13,14 +13,13 @@ math:
 
 > Thiago Alves Finardi
 
-### INFRASTRUCTURE ENGINEER | SYSADMIN | DEVOPS | SRE
+### Infrastructure Engineer | Site Reliability Engineer | DevOps
 
-Possuo um sólido background em TI e Segurança da Informação, com
-excelentes habilidades técnicas, oferecendo mais de 15 anos de
-expertise na área de tecnologia. Durante minha jornada na área, estive
-envolvido em projetos complexos e de grande escala, exercendo papel
-de liderança, sempre com ênfase em arquitetura, implementação e
-administração de sistemas em ambientes críticos.
+Sou apaixonado por Tecnologia, principalmente por aquelas que de alguma forma impactam positivamente a vida das pessoas, entregando funcionalidades ou experiências acima das espectativas.
+
+Possuo um sólido background em TI e Segurança da Informação, com excelentes habilidades técnicas, oferecendo mais de 15 anos de expertise na área de TI. Durante minha jornada na área, estive envolvido em projetos complexos e de grande escala, sempre com ênfase em engenharia de infraestrutura, arquitetura, implementação, administração e monitoração de sistemas em ambientes críticos.
+
+Amo trabalhar com projetos de Cloud Computing, Automação de Sistemas, Monitoramento, Observabilidade e projetos da Cloud Native Computing Foundation. 
 
 {{< admonition tip "Contatos:" >}} 
 * :(fab fa-linkedin):   **Perfil no** [**Linkedin**](https://linkedin.com/in/ThiagoFinardi)
