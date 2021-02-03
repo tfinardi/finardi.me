@@ -26,7 +26,7 @@ toc:
 lightgallery: true
 license: "Copyleft"
 ---
-Recentemente fiz um POC visando analisar uma alternativa para fazer o stream de logs imutáveis do sistema e aplicações para um bucket, fazendo uso das features de gerenciamento de ciclo de vida de objetos, migrando entre storage classes e implementando políticas de retenção mínima, expiração (para deleção automática após um determinado poríodo) e bloqueio de exclusão ou alteração dos objetos, enquanto contemplarem o período de retenção.
+Recentemente fiz um POC visando analisar uma alternativa para fazer o stream de logs imutáveis do sistema e aplicações para um bucket, fazendo uso das features de gerenciamento de ciclo de vida de objetos, migrando entre storage classes e implementando políticas de retenção mínima, expiração (para deleção automática após um determinado período) e bloqueio de exclusão ou alteração dos objetos, enquanto contemplarem o período de retenção.
 
 O legal é que os dois Cloud providers que analisei (AWS e GCP) possuem uma forma relativamente simples de fazer essa gestão de ciclo de vida dos objetos armazenados no Bucket. E como esse não é o foco do post, deixo os links para compreender melhor o funcionamento dessas funcionalidades.
 
@@ -42,7 +42,7 @@ O legal é que os dois Cloud providers que analisei (AWS e GCP) possuem uma form
 
 {{< figure src="vector.png" title="Diagrama Vector" >}}
 
-O Vector é uma ferramenta leve e ultrarrápida, escrita em Rust que possibilita construir pipelines de observabilidade de uma maneira fácil e efetiva. Ele tem como principal objetivo fazer com que você assuma o controle de seus dados de observabilidade, coletando, transformando e roteando todos os dados de observabilidade com uma ferramenta simples.
+O Vector é uma ferramenta leve e ultrarrápida, escrita em Rust que possibilita construir pipelines de observabilidade de uma maneira fácil e efetiva. Ele tem como principal objetivo fazer com que você assuma o controle de seus dados de observabilidade, coletando, transformando e roteando todos os dados  com uma ferramenta simples.
 
 ### Porque o Vector?
 
@@ -56,11 +56,11 @@ Todos os gráficos são relacionados a leitura de arquivos de log e envio TCP, s
 
 {{< figure src="vector-file-to-tcp.png" title="Gráfico Vector - Arquivos para TCP" >}}
 
-Somado a isso, que era uma das principais métricas a analisar, tendo em vista a alta demanda de entrada de logs devido a característica das aplicações, a baixa utilização de memória foi outra questão que chamou bastante atenção. Conforme podemos ver no gráfico de utilização de RAM:
+Somado a isso, a baixa utilização de memória foi outra questão que chamou bastante atenção. O que era uma das principais métricas a analisar, tendo em vista a alta demanda de entrada de logs devido a característica das aplicações. Podemos validar isso no gráfico de utilização de RAM:
 
 {{< figure src="vector-tcp-ram.png" title="Gráfico Vector - Utilização de RAM" >}}
 
-Se podemos dizer alguma coisa em que o Vector não se sai tão bem olhando nos gráficos, é na questão da utilização de CPU, mas isso é subjetivo, e o valor é muito baixo na realidade. O valor referenciado no gráfico é extremamente baixo, principalmente quando você analiza o poder de processamento e envio de dados via stream TCP. No conjunto ele se sai muito melhor.
+Se podemos dizer alguma coisa em que o Vector não se sai tão bem quando olhando nos gráficos, é na questão da utilização de CPU, mas isso é subjetivo, o valor referenciado no gráfico é extremamente baixo, principalmente quando você analiza o poder de processamento e envio de dados via stream TCP. No conjunto ele se sai muito melhor.
 
 {{< figure src="vector-tcp-cpu.png" title="Gráfico Vector - Utilização de CPU" >}}
 
